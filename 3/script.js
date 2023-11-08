@@ -7,7 +7,7 @@ function debounce(calls, t) {
     calls.forEach(call => {
         timeout = setTimeout(() => {
             hello()
-        }, t)
+        }, call.t + t)
         
         if (call.t <= t) {
             clearTimeout(timeout)
