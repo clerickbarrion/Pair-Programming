@@ -31,8 +31,8 @@ let calls = [
     {"t": 50, inputs: [1, 2]},
     {"t": 300, inputs: [3, 4]},
     {"t": 300, inputs: [5, 6]}
-  ]
-  
+]
+
 let t = 150
 console.log(debounce(calls, t))
 
