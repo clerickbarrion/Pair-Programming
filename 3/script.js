@@ -1,4 +1,4 @@
-function hello(time){
+function hello(time) {
     console.log(`Hello ...called in ${time}ms`)
 }
 
